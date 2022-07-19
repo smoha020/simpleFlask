@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html', the_title='Tiger Home Page')
 
-@app.route('/symbol.html')
+@app.route('/symbol.html') 
 def symbol():
     return render_template('symbol.html', the_title='Tiger As Symbol')  
 
